@@ -1,0 +1,1 @@
+var Events={__callbacks:{},on:function(c,a){var n=this.__callbacks[c]||(this.__callbacks[c]=[]);n.push(a)},off:function(c){},trigger:function(c,a){(this.__callbacks[c]||[]).forEach(function(c){c(a)})}};
